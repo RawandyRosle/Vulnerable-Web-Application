@@ -3,7 +3,7 @@ pipeline {
     stages { 
         stage ('Checkout') { 
             steps { 
-                git branch:'master', url: 'https://github.com/eekhait/Vulnerable-Web-Application.git' 
+                git branch:'master', url: 'https://github.com/RawandyRosle/Vulnerable-Web-Application.git' 
             } 
         } 
          
